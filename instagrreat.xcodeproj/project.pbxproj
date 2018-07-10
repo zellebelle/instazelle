@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0112D5CEB63D14ADDEE3DEF2 /* libPods-instagrreatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE069EA352E16E9CA569464 /* libPods-instagrreatTests.a */; };
+		93D5984F31EF0A700445F579 /* libPods-instagrreat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B16DC70A977E0427D49246 /* libPods-instagrreat.a */; };
 		A052A62620F4142B000A6143 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A052A62520F4142B000A6143 /* AppDelegate.m */; };
 		A052A62920F4142B000A6143 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A052A62820F4142B000A6143 /* ViewController.m */; };
 		A052A62C20F4142B000A6143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A052A62A20F4142B000A6143 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		A052A63420F4142B000A6143 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A052A63320F4142B000A6143 /* main.m */; };
 		A052A63E20F4142C000A6143 /* instagrreatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A052A63D20F4142C000A6143 /* instagrreatTests.m */; };
 		A052A64920F4142C000A6143 /* instagrreatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A052A64820F4142C000A6143 /* instagrreatUITests.m */; };
+		ACC4797025FBE1698E8688F3 /* libPods-instagrreatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AE3A3AC01F4DA287D345B6 /* libPods-instagrreatUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C992409A8C3BECF6C93ED0 /* Pods-instagrreat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagrreat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instagrreat/Pods-instagrreat.debug.xcconfig"; sourceTree = "<group>"; };
+		249A926FF86D67339F9A61A8 /* Pods-instagrreatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagrreatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-instagrreatUITests/Pods-instagrreatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		29AE3A3AC01F4DA287D345B6 /* libPods-instagrreatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-instagrreatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE069EA352E16E9CA569464 /* libPods-instagrreatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-instagrreatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5B77BB9230352FF6E3D163 /* Pods-instagrreatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagrreatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instagrreatUITests/Pods-instagrreatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FEAA30488B80B67234C1D51 /* Pods-instagrreatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagrreatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instagrreatTests/Pods-instagrreatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82B16DC70A977E0427D49246 /* libPods-instagrreat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-instagrreat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8798CFF57A910C33F2DCCE25 /* Pods-instagrreatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagrreatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-instagrreatTests/Pods-instagrreatTests.release.xcconfig"; sourceTree = "<group>"; };
 		A052A62120F4142B000A6143 /* instagrreat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagrreat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A052A62420F4142B000A6143 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A052A62520F4142B000A6143 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		A052A64420F4142C000A6143 /* instagrreatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instagrreatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A052A64820F4142C000A6143 /* instagrreatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instagrreatUITests.m; sourceTree = "<group>"; };
 		A052A64A20F4142C000A6143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F5D75117D4C0CE2D2D2FCE /* Pods-instagrreat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagrreat.release.xcconfig"; path = "Pods/Target Support Files/Pods-instagrreat/Pods-instagrreat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D5984F31EF0A700445F579 /* libPods-instagrreat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0112D5CEB63D14ADDEE3DEF2 /* libPods-instagrreatTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC4797025FBE1698E8688F3 /* libPods-instagrreatUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				A052A63C20F4142C000A6143 /* instagrreatTests */,
 				A052A64720F4142C000A6143 /* instagrreatUITests */,
 				A052A62220F4142B000A6143 /* Products */,
+				A24A0FAF66742A3067A83E54 /* Pods */,
+				AC6662C04D3200353467A01E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,29 @@
 			path = instagrreatUITests;
 			sourceTree = "<group>";
 		};
+		A24A0FAF66742A3067A83E54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10C992409A8C3BECF6C93ED0 /* Pods-instagrreat.debug.xcconfig */,
+				C9F5D75117D4C0CE2D2D2FCE /* Pods-instagrreat.release.xcconfig */,
+				7FEAA30488B80B67234C1D51 /* Pods-instagrreatTests.debug.xcconfig */,
+				8798CFF57A910C33F2DCCE25 /* Pods-instagrreatTests.release.xcconfig */,
+				3B5B77BB9230352FF6E3D163 /* Pods-instagrreatUITests.debug.xcconfig */,
+				249A926FF86D67339F9A61A8 /* Pods-instagrreatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC6662C04D3200353467A01E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B16DC70A977E0427D49246 /* libPods-instagrreat.a */,
+				2CE069EA352E16E9CA569464 /* libPods-instagrreatTests.a */,
+				29AE3A3AC01F4DA287D345B6 /* libPods-instagrreatUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A052A64D20F4142C000A6143 /* Build configuration list for PBXNativeTarget "instagrreat" */;
 			buildPhases = (
+				5F7DB9F125133FA26D3185AC /* [CP] Check Pods Manifest.lock */,
 				A052A61D20F4142B000A6143 /* Sources */,
 				A052A61E20F4142B000A6143 /* Frameworks */,
 				A052A61F20F4142B000A6143 /* Resources */,
+				E4F855D1911B8E84061A4FFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A052A65020F4142C000A6143 /* Build configuration list for PBXNativeTarget "instagrreatTests" */;
 			buildPhases = (
+				65D60F8868B440D8CE472D47 /* [CP] Check Pods Manifest.lock */,
 				A052A63520F4142B000A6143 /* Sources */,
 				A052A63620F4142B000A6143 /* Frameworks */,
 				A052A63720F4142B000A6143 /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A052A65320F4142C000A6143 /* Build configuration list for PBXNativeTarget "instagrreatUITests" */;
 			buildPhases = (
+				D91DBC19B1F695D2329A9BBB /* [CP] Check Pods Manifest.lock */,
 				A052A64020F4142C000A6143 /* Sources */,
 				A052A64120F4142C000A6143 /* Frameworks */,
 				A052A64220F4142C000A6143 /* Resources */,
@@ -256,6 +300,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F7DB9F125133FA26D3185AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instagrreat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D60F8868B440D8CE472D47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instagrreatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91DBC19B1F695D2329A9BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instagrreatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F855D1911B8E84061A4FFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-instagrreat/Pods-instagrreat-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instagrreat/Pods-instagrreat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A052A61D20F4142B000A6143 /* Sources */ = {
@@ -431,6 +550,7 @@
 		};
 		A052A64E20F4142C000A6143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C992409A8C3BECF6C93ED0 /* Pods-instagrreat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +568,7 @@
 		};
 		A052A64F20F4142C000A6143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F5D75117D4C0CE2D2D2FCE /* Pods-instagrreat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +586,7 @@
 		};
 		A052A65120F4142C000A6143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FEAA30488B80B67234C1D51 /* Pods-instagrreatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +606,7 @@
 		};
 		A052A65220F4142C000A6143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8798CFF57A910C33F2DCCE25 /* Pods-instagrreatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +626,7 @@
 		};
 		A052A65420F4142C000A6143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5B77BB9230352FF6E3D163 /* Pods-instagrreatUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SCLSX4WXP5;
@@ -521,6 +645,7 @@
 		};
 		A052A65520F4142C000A6143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249A926FF86D67339F9A61A8 /* Pods-instagrreatUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SCLSX4WXP5;
